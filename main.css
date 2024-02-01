@@ -177,6 +177,26 @@ header .apply_btn .btn:hover {
   font-size: 1.9rem;
 }
 
+.button-row {
+  margin-bottom: 10px; /* Adds space between each button */
+}
+
+.button-row button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: block; /* Stack buttons vertically */
+  width: 100%;
+}
+
+.button-row button:hover {
+  background-color: red;
+  color: white;
+}
+
 
 
 
