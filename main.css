@@ -197,6 +197,11 @@ header .apply_btn .btn:hover {
   color: white;
 }
 
+.button-row button.clicked {
+  background-color: red;
+  color: white;
+}
+
 
 
 
