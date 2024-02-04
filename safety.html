@@ -25,13 +25,13 @@
     const db = getDatabase();
 
     let GMapplications = document.getElementById('GMapplications');
-    let stdno = 1;
+    let stdno = ;
 
     function GetApplications(){
       const dbref = ref(db);
 
       get(child(dbref, 'fullName')).then((applications)=>{
-        applications.forEach(std =>{
+        applications.forEastd =>{
           AddapplicationAsListItem(std)
         });
       })
